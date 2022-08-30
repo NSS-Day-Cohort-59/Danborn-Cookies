@@ -1,5 +1,6 @@
 import { getCookies } from "./database.js";
 
+//Returns an html string of all ice cream 
 export const cookiesToHTML = () => {
     const cookies = getCookies();
     let cookieHTML = "";
