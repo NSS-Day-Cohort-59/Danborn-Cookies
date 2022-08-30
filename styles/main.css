@@ -1,22 +1,26 @@
 #ice-cream-section {
-  width: 50%;
+  width: 48%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
 
-.cookie-column {
+.cookie-column, .ice-cream-column {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
 }
 
 .food-img, .description-div {
-    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 48%;
 }
 
 #cookies-section {
-    width: 50%;
+    width: 48%;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -26,8 +30,9 @@
   align-items: center;
 }
 
-.food-name {
+.food-name, .food-description {
   text-align: center;
+  width: 100%;
 }
 
 #mainHeader {
@@ -37,8 +42,4 @@
 body {
     display: flex;
     flex-flow: row wrap;
-}
-
-.food-description {
-    text-align: center;
 }
