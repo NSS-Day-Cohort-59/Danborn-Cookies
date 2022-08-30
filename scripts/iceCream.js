@@ -1,6 +1,6 @@
 import { getIceCream } from "./database.js";
 
-
+//Returns html string of all ice cream
 export const iceCreamList = () => {
   const iceCreamArr = getIceCream();
 
