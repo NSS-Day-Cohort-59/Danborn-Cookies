@@ -85,3 +85,9 @@ const database = {
     },
   ],
 }
+
+
+
+export const getIceCream = () => {
+  return database.iceCream.map((iceCream) => ({...iceCream}));
+};
