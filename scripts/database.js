@@ -12,14 +12,14 @@ const database = {
       name: 'Milk Chocolate Chip',
       img: 'https://crumbl.video/cdn-cgi/image/width=600/https://crumbl.video/b31ec433-ee3d-4ace-8758-6921d5c671c6_ChocolateChip_Aerial_Tech.png',
       description:
-        "The classic—you can't go wrong. Thick, soft, and packed with milk chocolate chips",
+        "The classic—you can't go wrong. Thick, soft, and packed with milk chocolate chips.",
     },
     {
       id: 3,
       name: 'Strawberry Shortcake',
       img: 'https://crumbl.video/cdn-cgi/image/width=600/https://crumbl.video/81c9440d-b562-417b-9f5e-0bf2d3d4047b_StrawberryShortcake_Aerial_Tech.png',
       description:
-        'A cakey cookie topped with silky whipped cream, house-made strawberry jam, and freshly chopped strawberries',
+        'A cakey cookie topped with silky whipped cream, house-made strawberry jam, and freshly chopped strawberries.',
     },
     {
       id: 4,
