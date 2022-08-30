@@ -1,0 +1,15 @@
+#ice-cream-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-column {
+  display: flex;
+  align-items: center;
+}
+
+.food-name {
+  text-align: center;
+}

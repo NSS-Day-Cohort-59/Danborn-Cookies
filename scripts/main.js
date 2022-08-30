@@ -14,4 +14,4 @@ parentCookiesElement.innerHTML += cookiesToHTML();
 // Adds all html elements for ice cream objects
 const iceCreamHTMLElement = document.querySelector("#ice-cream-section")
 
-iceCreamHTMLElement.innerHTML = iceCreamList();
+iceCreamHTMLElement.innerHTML += iceCreamList();
