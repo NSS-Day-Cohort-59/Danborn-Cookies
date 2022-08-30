@@ -85,3 +85,11 @@ const database = {
     },
   ],
 }
+
+export const getCookies = () => {
+  return database.cookies.map((cookie) => ({...cookie}));
+}
+
+export const getIceCream = () => {
+  return database.iceCream.map((iceCream) => ({...iceCream}));
+};
