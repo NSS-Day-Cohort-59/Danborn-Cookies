@@ -9,16 +9,18 @@
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-}
-
-.food-img, .description-div {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
     width: 48%;
 }
 
+.food-img {
+    display: flex;
+    width: 48%;
+}
+
+.description-div {
+  display: flex;
+  flex-flow: row wrap;
+}
 #cookies-section {
     width: 48%;
     display: flex;
@@ -28,6 +30,8 @@
 .food-column {
   display: flex;
   align-items: center;
+  flex-flow: row nowrap;
+  width: 48%;
 }
 
 .food-name, .food-description {
@@ -42,4 +46,5 @@
 body {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
