@@ -85,6 +85,7 @@ const database = {
     },
   ],
 }
+database.cookies.sort((a, b) => a.name.localeCompare(b.name))
 database.iceCream.sort((a, b) => a.name.localeCompare(b.name))
 //Returns an array of a list of cookies
 export const getCookies = () => {
