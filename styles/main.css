@@ -12,6 +12,13 @@
     width: 48%;
 }
 
+.cookie-flavor {
+  border: dotted rgb(137,207,240);
+}
+
+.iceCream-flavor {
+  border: dashed pink;
+}
 .food-img {
     display: flex;
     width: 48%;
@@ -48,8 +55,6 @@
 }
 
 .food-name {
-  border: dashed;
-  border-color: pink;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
