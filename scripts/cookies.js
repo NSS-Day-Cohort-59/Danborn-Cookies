@@ -4,7 +4,7 @@ import { getCookies } from "./database.js";
 export const cookiesToHTML = () => {
     const cookies = getCookies();
     let cookieHTML = "";
-    
+
     for (const cookieObj of cookies) {
         cookieHTML += `  <div id="cookie-${cookieObj.id}" class="cookie-column">
       <img class="food-img" alt="Food Image" src="${cookieObj.img}">

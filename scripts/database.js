@@ -86,12 +86,17 @@ const database = {
   ],
 }
 
+database.cookies.sort((a, b) => a.name.localeCompare(b.name))
 //Returns an array of a list of cookies
 export const getCookies = () => {
-  return database.cookies.map((cookie) => ({...cookie}));
+  return database.cookies.map((cookie) => ({ ...cookie }));
 }
 
 //Returns an array of a list of ice cream
 export const getIceCream = () => {
-  return database.iceCream.map((iceCream) => ({...iceCream}));
+  return database.iceCream.map((iceCream) => ({ ...iceCream }));
 };
+
+
+
+

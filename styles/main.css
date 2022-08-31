@@ -5,10 +5,11 @@
   align-items: center;
 }
 
-.cookie-column, .ice-cream-column {
+.cookie-column, .food-column {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    width: 48%;
 }
 
 .food-img, .description-div {
@@ -25,14 +26,14 @@
     flex-flow: column nowrap;
     align-items: center;
 }
-.food-column {
-  display: flex;
-  align-items: center;
-}
 
 .food-name, .food-description {
   text-align: center;
   width: 100%;
+}
+
+.food-description {
+  font-style: italic;
 }
 
 #mainHeader {

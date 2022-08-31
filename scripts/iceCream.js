@@ -6,7 +6,7 @@ export const iceCreamList = () => {
 
   let htmlString = ``;
 
-  for(const iceCream of iceCreamArr) {
+  for (const iceCream of iceCreamArr) {
     htmlString += `<div id="iceCream-${iceCream.id}"class="food-column" class="ice-cream-column">
     <img class="food-img" alt="Food Image" src="${iceCream.img}">
     <div class="description-div">
