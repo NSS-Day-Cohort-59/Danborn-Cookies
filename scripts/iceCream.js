@@ -4,10 +4,10 @@ import { getIceCream } from "./database.js";
 export const iceCreamList = () => {
   const iceCreamArr = getIceCream();
 
-  let htmlString = ``;
+  let htmlString = "";
 
   for(const iceCream of iceCreamArr) {
-    htmlString += `<div id="iceCream-${iceCream.id}"class="food-column" class="ice-cream-column">
+    htmlString += `<div id="iceCream-${iceCream.id}"class="food-column">
     <img class="food-img" alt="Food Image" src="${iceCream.img}">
     <div class="description-div">
       <h3 class="food-name">${iceCream.name}</h3>

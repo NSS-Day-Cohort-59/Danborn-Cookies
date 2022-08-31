@@ -85,7 +85,7 @@ const database = {
     },
   ],
 }
-
+database.iceCream.sort((a, b) => a.name.localeCompare(b.name))
 //Returns an array of a list of cookies
 export const getCookies = () => {
   return database.cookies.map((cookie) => ({...cookie}));
@@ -93,5 +93,6 @@ export const getCookies = () => {
 
 //Returns an array of a list of ice cream
 export const getIceCream = () => {
+  
   return database.iceCream.map((iceCream) => ({...iceCream}));
 };
