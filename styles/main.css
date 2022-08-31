@@ -17,6 +17,10 @@
     width: 48%;
 }
 
+.food-header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .description-div {
   display: flex;
   flex-flow: row wrap;
@@ -39,9 +43,21 @@
   width: 100%;
 }
 
+.food-description {
+  font-style: italic;
+}
+
+.food-name {
+  border: dashed;
+  border-color: pink;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #mainHeader {
     width: 100%;
     text-align: center;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body {
     display: flex;
